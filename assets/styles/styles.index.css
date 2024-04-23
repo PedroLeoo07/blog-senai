@@ -9,7 +9,7 @@
 }
 body {
     font-family: "Sedan", sans-serif;
-    background-color: #8b8b8b;
+    background-color: #09ff5b;
 }
 h1 {
     text-align: center;
@@ -23,8 +23,8 @@ header {
     display: flex;
     justify-content: space-around;
     height: 150px;
-    background-color: #c7c7c7;
-    color: #a8a7a7;
+    background-color: #000000;
+    color: #00ff77;
     align-items: center;
 }
 #logo-img {
@@ -39,7 +39,7 @@ header {
 }
 #links a {
     text-decoration: none;
-    color: #a8a7a7;
+    color: #fffcfc;
     font-size: 1.2rem;
     border-bottom: 3px solid transparent;
     border-radius: 6px;
@@ -47,7 +47,37 @@ header {
     
 }
 #links a:hover {
-    border-bottom: 3px solid #ffaeae;
-    color:#fe6c6c;
+    border-bottom: 3px solid #039b0d;
+    color:#434343;
     transform: scale(1.2);
+}
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #00ff4c;
+}
+#carousel img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    padding: 30px;
+}
+#main-new {
+    width: 60%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+}
+#inside {
+    width: 30%;
+    background-color: #000000;
+    margin: 20px;
+    padding: 20px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
 }
