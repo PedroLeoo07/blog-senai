@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: "Sedan", sans-serif;
+    background-color: #f5f5f5;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: "Sedan";
+    text-align: center;
 }
